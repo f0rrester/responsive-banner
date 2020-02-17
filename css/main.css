@@ -1,0 +1,49 @@
+html {
+  font-family: Georgia, serif;
+}
+
+body {
+  background-color: #495562;
+  color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .btn-ghost {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  main {
+    max-height: 500px;
+    position: relative;
+  }
+
+  .content {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, .9));
+    background-color: transparent;
+  }
+
+  .btn-ghost {
+    text-align: right;
+  }
+
+}
+
+.btn-ghost {
+  border: 3px solid #97a49b;
+  color: #fff;
+}
+
+.btn-ghost:hover {
+  background-color: rgba(73, 85, 98, .5);
+  border-color: #efefef;
+  color: #fff;
+}
